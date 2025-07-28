@@ -23,6 +23,7 @@ style.css         → Custom CSS styling
 script.js         → JavaScript file to handle chat logic and API calls
 README.txt        → Project info and usage guide
 
+
 How to Run the Project:
 1. Clone or download the project folder
 2. Open script.js
@@ -30,6 +31,24 @@ How to Run the Project:
 4. Save the file
 5. Open index.html in your browser
 6. Start chatting with the AI
+
+Workflow:
+
+Step 1 – UI Design (Frontend):
+I designed the chatbot interface using HTML and styled it with CSS and Bootstrap to make it responsive for all devices.
+
+Step 2 – Message Input:
+The user types a message in the input box and clicks the Send button.
+
+Step 3 – JavaScript Handling:
+JavaScript captures the user's message and sends it to the OpenAI API using the fetch method.
+
+Step 4 – API Integration:
+The OpenAI API receives the input, processes it, and sends back a response.
+
+Step 5 – Displaying the Response:
+The chatbot displays the reply from the API on the screen.
+
 
 How It Works:
 - User types a message and clicks "Send"
